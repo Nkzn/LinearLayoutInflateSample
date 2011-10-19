@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  style="@style/root_style">
+  
+  <TextView 
+  	style="@style/tv_wrap_wrap"
+  	android:id="@+id/tv_detailname"
+  	android:text="でぃてーるねーむ" />
+  	
+		<TextView 
+			style="@style/tv_wrap_wrap"
+			android:id="@+id/tv_detailvalue"
+			android:text="でぃてーるばりゅー" />
+		
+		<ListView 
+			style="@style/lv_wmatch_hwrap"
+			android:id="@+id/lv_data_detail_contents">
+		</ListView>
+  
+</LinearLayout>
